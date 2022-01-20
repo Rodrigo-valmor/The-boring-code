@@ -11,7 +11,7 @@ def run():
 
     while num_insert != numero_Aleatorio:
         if num_insert < numero_Aleatorio and life > 0:
-            print("\nTe quedan " + str(life) + " vidas" +"\nEscoge un numero mayor\n")
+            print("\nTe QUEDAN " + str(life) + " vidas" +"\nEscoge un numero mayor\n")
             score += 1  
             life -=1 
             num_insert = int(input("\nInserte un número: "))
