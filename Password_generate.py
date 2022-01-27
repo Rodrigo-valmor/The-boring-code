@@ -1,5 +1,3 @@
-from ast import Num, Pass
-from lib2to3.pgen2.token import MINUS
 import random
 
 MAYUS = ("A","B","C","D","E","F","G")
